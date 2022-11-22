@@ -1,0 +1,43 @@
+# curl 'https://gateway.reddit.com/desktopapi/v1/prefs?redditWebClient=web2x&app=web2x-client-production&include=identity&timestamp=1669056742425'
+#  -H 'authority: gateway.reddit.com'
+#  -H 'accept: */*'
+#  -H 'accept-language: en-US,en;q=0.9'
+#  -H 'authorization: Bearer 2387201399043-e3BB6rPTIXu-WSjyFBuygqMW7B8JUQ'
+#  -H 'content-type: application/x-www-form-urlencoded'
+#  -H 'origin: https://www.reddit.com'
+#  -H 'reddit-user_id: desktop2x'
+#  -H 'referer: https://www.reddit.com/'
+#  -H 'sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"'
+#  -H 'sec-ch-ua-mobile: ?0'
+#  -H 'sec-ch-ua-platform: "macOS"'
+#  -H 'sec-fetch-dest: empty'
+#  -H 'sec-fetch-mode: cors'
+#  -H 'sec-fetch-site: same-site'
+#  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+#  -H 'x-reddit-loid: 0000000000ugny2s5f.2.1669056532000.Z0FBQUFBQmplOGdVSHpiX29xZk02ekhuVFpyTWREeWI1Rk15MXNFNWN2YzYySnBIU1FyVTV0amFGVXdxSGdseWxLS2JDVEF2TDdJeVpPcHhDSkpTQzBIdGtoTU43NWdSdUN6YVBZbXpXUlo2SjJLY2RtQnVPZElMTjFHNzVYN1RPUTJtTG5rcHdud3g'
+#  -H 'x-reddit-session: enfqicqkgaqrndcgla.0.1669056710557.Z0FBQUFBQmplOGpHeWZRV2JIWHBGT0h6UEpBbXhHMmcta0FqMi0xQlE5cjlydmNMQjlROFZEQi15ckFxcDc5M0VnQm8tWXZqdVJ6MnBiSG95b1ZyQnhlbmpyTndvTXpZcXk1Qlh1U09pZlNETUFSelMxVDdXdXh6SzBNcW1CemdNOXIyWDNSeVBDNzc'
+#  --compressed
+GET https://gateway.reddit.com/desktopapi/v1/prefs?redditWebClient=web2x&app=web2x-client-production&include=identity&timestamp=1669056742425
+authority: gateway.reddit.com
+accept: */*
+accept-language: en-US,en;q=0.9
+#authorization: Bearer 2387201399043-34Xnn9X_5ZYSRZNn3iZHzupTPHQdrw
+authorization: Bearer 2387201399043-xrjeyXufti8JoGoNuNFOmyKLiK8Xfw
+#authorization: Bearer 2387201399043-n3ugZFrLLmZO_4Eqd1ijnIuO16Xywg
+origin: https://www.reddit.com
+reddit-user_id: desktop2x
+referer: https://www.reddit.com/
+sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+sec-fetch-dest: empty
+sec-fetch-mode: cors
+sec-fetch-site: same-site
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+#x-reddit-loid: 0000000000ugny2s5f.2.1669056532000.Z0FBQUFBQmplOGdVSHpiX29xZk02ekhuVFpyTWREeWI1Rk15MXNFNWN2YzYySnBIU1FyVTV0amFGVXdxSGdseWxLS2JDVEF2TDdJeVpPcHhDSkpTQzBIdGtoTU43NWdSdUN6YVBZbXpXUlo2SjJLY2RtQnVPZElMTjFHNzVYN1RPUTJtTG5rcHdud3g
+#x-reddit-session: enfqicqkgaqrndcgla.0.1669056710557.Z0FBQUFBQmplOGpHeWZRV2JIWHBGT0h6UEpBbXhHMmcta0FqMi0xQlE5cjlydmNMQjlROFZEQi15ckFxcDc5M0VnQm8tWXZqdVJ6MnBiSG95b1ZyQnhlbmpyTndvTXpZcXk1Qlh1U09pZlNETUFSelMxVDdXdXh6SzBNcW1CemdNOXIyWDNSeVBDNzc
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+#Bearer 2387201399043-xrjeyXufti8JoGoNuNFOmyKLiK8Xfw

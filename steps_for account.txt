@@ -1,0 +1,15 @@
+1. Go here https://www.reddit.com/account/register/ and wait until /html/body/div/main/div[1]/div/div[2]/form/fieldset[2]/button[@data-step="email"] clickable and element by id id="regEmail" clickable <- input
+2. Wait for id="regUsername" clickable and click /html/body/div/main/div[2]/div/div/div[2]/div[2]/div/div/a[1]/text() and wait until the text appears in the text box
+3. Wait for id="regPassword" and enter random password there @llowThis!
+4. Wait for /html/body/div/main/div[2]/div/div/div[3]/button[@data-step="username-and-password"] to be clickable and hit submit
+5. Wait for //*[@id="rc-anchor-container"]
+6. After capcha has been resolved manually wait for //*[@id="SHORTCUT_FOCUSABLE_DIV"]/div[4]/div/div/div/header/div[1]/div[2]/button[text()='Skip']
+7. Wait for //*[@id="SHORTCUT_FOCUSABLE_DIV"]/div[4]/div/div/div/div[1]/div/button[133] 3 clicks(interests)
+8. Wait for //*[@id="SHORTCUT_FOCUSABLE_DIV"]/div[4]/div/div/div/div[2]/button[text()='Continue'] to be clickable
+9. Wait for //*[@id="SHORTCUT_FOCUSABLE_DIV"]/div[4]/div/div/div/div[1]/div/div[2]/button[text()='Select All']
+10. Wait for //*[@id="SHORTCUT_FOCUSABLE_DIV"]/div[4]/div/div/div/div[2]/button[text()='Continue'] to be clickable and click
+11. Wait for //*[@id="SHORTCUT_FOCUSABLE_DIV"]/div[4]/div/div/div/div[2]/button[text()='Continue'] to be clickable and click
+12. Wait for //*[@id="USER_DROPDOWN_ID"] to become clickable
+13. GET https://temporarymail.com/ajax/?action=checkInbox&value=bjVcnKTsP6mqkKN3Gsr7Fp9gAshFHVmI
+{"6AuCKLpAqg5BIVxI0YFNM9QighHMecS3":{"from":"noreply@reddit.com","name":null,"to":"caanan.novotny@easymailer.live","subject":"Verify your Reddit email address","date":"1668357139","id":"6AuCKLpAqg5BIVxI0YFNM9QighHMecS3","sourceHash":null,"attachments":[]}}
+14.

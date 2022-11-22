@@ -1,0 +1,46 @@
+###
+
+# curl 'https://gql.reddit.com/'
+#  -H 'authority: gql.reddit.com'
+#  -H 'accept: */*'
+#  -H 'accept-language: en-US,en;q=0.9'
+#  -H 'authorization: Bearer 2387201399043-k-z0yEhUtUfWwapfv0wKY32vbZnrfQ'
+#  -H 'content-type: application/json'
+#  -H 'origin: https://www.reddit.com'
+#  -H 'referer: https://www.reddit.com/'
+#  -H 'sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"'
+#  -H 'sec-ch-ua-mobile: ?0'
+#  -H 'sec-ch-ua-platform: "macOS"'
+#  -H 'sec-fetch-dest: empty'
+#  -H 'sec-fetch-mode: cors'
+#  -H 'sec-fetch-site: same-site'
+#  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+#  -H 'x-reddit-compression: 1'
+#  -H 'x-reddit-loid: 0000000000ugny2s5f.2.1669056532000.Z0FBQUFBQmplLWtqZmZ1VmJVOUJGUkxJd1MzZm10MlB4RHRtdkhfNWdTdmFodFpMTF8wel9iZDBZOG1yVk9zZFJOanJBeXdfRGRWMjBHSzg2cnN6a1NUcHoxV25VV3BfWTQ3bWlpTU1jeW1NRzB6di01d1JCWkx6N05qa1l1ai1XY1ZBRkJ5RnluakU'
+#  -H 'x-reddit-session: 5fDrWVaYy3HC21bO4H.0.1669065425711.Z0FBQUFBQmplLXJSQkt0RG1ZbFZFVUJ2VHNaQ21uNk1TaVZwR0VINTAxVVNVQ0doek1DS2hOT1BxQnFKT0dHdUR3ak5Mcm5sT0RWTHY4S2p6Q1NVZl9QOGY4bmdqejFGNzZtVENfS29UM3JoSjNpZGdzUE1NLXJyTnkzV2VZUlhMcHZMTDNuOVo4R1Y'
+#  -H 'x-signature: key=Desktop2x3, mac=8ba4c2283e46872623af1c581600e725d2558aa401a95dbc05f19288f93fbe08'
+#  --data-raw '{"id":"2c3efcfc2552","variables":{"input":{"events":"{\"1\":{\"lst\":[\"rec\",1,{\"1\":{\"str\":\"profile_settings\"},\"2\":{\"str\":\"click\"},\"3\":{\"str\":\"save_settings\"},\"5\":{\"i64\":1669065487425},\"6\":{\"str\":\"3f469a84-064b-4bce-9e29-7fd0ca682a9a\"},\"106\":{\"rec\":{\"1\":{\"i32\":1680},\"2\":{\"i32\":1050},\"3\":{\"i32\":1680},\"4\":{\"i32\":150},\"5\":{\"str\":\"card\"},\"6\":{\"str\":\"default\"},\"7\":{\"tf\":1},\"8\":{\"str\":\"7f0f0d0a-b7e7-4722-8585-c4bde8f494f0\"}}},\"107\":{\"rec\":{\"2\":{\"str\":\"web2x\"},\"4\":{\"i32\":179322},\"5\":{\"i64\":1669060753000}}},\"108\":{\"rec\":{\"4\":{\"str\":\"mac-os\"},\"5\":{\"str\":\"10-15-7\"},\"6\":{\"str\":\"chrome\"},\"7\":{\"str\":\"107-0-0-0\"},\"12\":{\"str\":\"en-US\"},\"13\":{\"str\":\"en-US,en;q=0.9\"}}},\"109\":{\"rec\":{\"1\":{\"str\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36\"},\"2\":{\"str\":\"www.reddit.com\"},\"3\":{\"str\":\"https://www.reddit.com/settings/profile\"}}},\"110\":{\"rec\":{\"1\":{\"str\":\"www.reddit.com\"},\"2\":{\"str\":\"https://www.reddit.com/\"}}},\"112\":{\"rec\":{\"1\":{\"str\":\"t2_ugny2s5f\"},\"2\":{\"i64\":1669056647000},\"3\":{\"tf\":1},\"4\":{\"i64\":1669056532000},\"12\":{\"tf\":0},\"13\":{\"tf\":0},\"14\":{\"i64\":0},\"15\":{\"i64\":0},\"17\":{\"tf\":0}}},\"115\":{\"rec\":{\"1\":{\"str\":\"5fDrWVaYy3HC21bO4H\"},\"2\":{\"str\":\"https://www.reddit.com/\"},\"3\":{\"str\":\"www.reddit.com\"},\"6\":{\"i64\":1669065425711}}},\"116\":{\"rec\":{\"1\":{\"str\":\"settings_profile\"}}},\"122\":{\"rec\":{\"1\":{\"str\":\"t2_ugny2s5f\"},\"2\":{\"str\":\"No-Ninja-8398\"},\"3\":{\"str\":\"default\"},\"4\":{\"str\":\"My Name T\"},\"5\":{\"str\":\"\"},\"8\":{\"tf\":0},\"9\":{\"tf\":1},\"11\":{\"tf\":1},\"12\":{\"tf\":1},\"13\":{\"i64\":0}}}}]}}","isStaging":false}}}'
+#  --compressed
+POST https://gql.reddit.com/
+authority: gql.reddit.com
+accept: */*
+accept-language: en-US,en;q=0.9
+authorization: Bearer 2387201399043-k-z0yEhUtUfWwapfv0wKY32vbZnrfQ
+origin: https://www.reddit.com
+referer: https://www.reddit.com/
+sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+sec-fetch-dest: empty
+sec-fetch-mode: cors
+sec-fetch-site: same-site
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+x-reddit-compression: 1
+x-reddit-loid: 0000000000ugny2s5f.2.1669056532000.Z0FBQUFBQmplLWtqZmZ1VmJVOUJGUkxJd1MzZm10MlB4RHRtdkhfNWdTdmFodFpMTF8wel9iZDBZOG1yVk9zZFJOanJBeXdfRGRWMjBHSzg2cnN6a1NUcHoxV25VV3BfWTQ3bWlpTU1jeW1NRzB6di01d1JCWkx6N05qa1l1ai1XY1ZBRkJ5RnluakU
+x-reddit-session: 5fDrWVaYy3HC21bO4H.0.1669065425711.Z0FBQUFBQmplLXJSQkt0RG1ZbFZFVUJ2VHNaQ21uNk1TaVZwR0VINTAxVVNVQ0doek1DS2hOT1BxQnFKT0dHdUR3ak5Mcm5sT0RWTHY4S2p6Q1NVZl9QOGY4bmdqejFGNzZtVENfS29UM3JoSjNpZGdzUE1NLXJyTnkzV2VZUlhMcHZMTDNuOVo4R1Y
+x-signature: key=Desktop2x3, mac=8ba4c2283e46872623af1c581600e725d2558aa401a95dbc05f19288f93fbe08
+Content-Type: application/json
+
+{"id":"2c3efcfc2552","variables":{"input":{"events":"{\"1\":{\"lst\":[\"rec\",1,{\"1\":{\"str\":\"profile_settings\"},\"2\":{\"str\":\"click\"},\"3\":{\"str\":\"save_settings\"},\"5\":{\"i64\":1669065487425},\"6\":{\"str\":\"3f469a84-064b-4bce-9e29-7fd0ca682a9a\"},\"106\":{\"rec\":{\"1\":{\"i32\":1680},\"2\":{\"i32\":1050},\"3\":{\"i32\":1680},\"4\":{\"i32\":150},\"5\":{\"str\":\"card\"},\"6\":{\"str\":\"default\"},\"7\":{\"tf\":1},\"8\":{\"str\":\"7f0f0d0a-b7e7-4722-8585-c4bde8f494f0\"}}},\"107\":{\"rec\":{\"2\":{\"str\":\"web2x\"},\"4\":{\"i32\":179322},\"5\":{\"i64\":1669060753000}}},\"108\":{\"rec\":{\"4\":{\"str\":\"mac-os\"},\"5\":{\"str\":\"10-15-7\"},\"6\":{\"str\":\"chrome\"},\"7\":{\"str\":\"107-0-0-0\"},\"12\":{\"str\":\"en-US\"},\"13\":{\"str\":\"en-US,en;q=0.9\"}}},\"109\":{\"rec\":{\"1\":{\"str\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36\"},\"2\":{\"str\":\"www.reddit.com\"},\"3\":{\"str\":\"https://www.reddit.com/settings/profile\"}}},\"110\":{\"rec\":{\"1\":{\"str\":\"www.reddit.com\"},\"2\":{\"str\":\"https://www.reddit.com/\"}}},\"112\":{\"rec\":{\"1\":{\"str\":\"t2_ugny2s5f\"},\"2\":{\"i64\":1669056647000},\"3\":{\"tf\":1},\"4\":{\"i64\":1669056532000},\"12\":{\"tf\":0},\"13\":{\"tf\":0},\"14\":{\"i64\":0},\"15\":{\"i64\":0},\"17\":{\"tf\":0}}},\"115\":{\"rec\":{\"1\":{\"str\":\"5fDrWVaYy3HC21bO4H\"},\"2\":{\"str\":\"https://www.reddit.com/\"},\"3\":{\"str\":\"www.reddit.com\"},\"6\":{\"i64\":1669065425711}}},\"116\":{\"rec\":{\"1\":{\"str\":\"settings_profile\"}}},\"122\":{\"rec\":{\"1\":{\"str\":\"t2_ugny2s5f\"},\"2\":{\"str\":\"No-Ninja-8398\"},\"3\":{\"str\":\"default\"},\"4\":{\"str\":\"My Name T\"},\"5\":{\"str\":\"\"},\"8\":{\"tf\":0},\"9\":{\"tf\":1},\"11\":{\"tf\":1},\"12\":{\"tf\":1},\"13\":{\"i64\":0}}}}]}}","isStaging":false}}}
+###
+

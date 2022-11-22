@@ -1,0 +1,38 @@
+###
+
+# curl 'https://www.reddit.com/'
+#  -H 'authority: www.reddit.com'
+#  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+#  -H 'accept-language: en-US,en;q=0.9'
+#  -H 'cache-control: max-age=0'
+#  -H 'cookie: token_v2=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjkwNTYwMTQsInN1YiI6Ii16YlBXY3BfRUhSRVZIYVNNVWlaUG1wZVliQTd2Y1EiLCJsb2dnZWRJbiI6ZmFsc2UsInNjb3BlcyI6WyIqIiwiZW1haWwiLCJwaWkiXX0.0FX-Mx5uPHYnPGX-tYTQEkgMTzraEeXlZT3a9187arc; csv=2; edgebucket=loUPP4OxW2x0zMjZLY; show_announcements=yes; datadome=5jWSRiA47rDavxP2U4~4xwxcf5CzQ1-9UDhQlmg26BT7DDQ42-LsvYjWXdVYjFuFQ6tSfV4JpsARKC91X2onSDiYSRKqLQQwH~sasWn8iOb_Njhhh9Sahh3HlDkJczi0; session_tracker=pendqhlcqmkcmjodle.0.1668969812051.Z0FBQUFBQmplblZVY2VJeW5vdzNlaUlXMy1GcWJYTUtiaDZWb0h2WGEwbGVwWDh2YkVGWXZ0WGZoc2xhYzhZaDZzNXJDQWd0SGJLNFZteXMwdTU1a1R3RTZ4TVRpaGxzMjJuRUthUkpOVTBZVkpYa0s2YmhYdl9MTTFPSnd2LTNtTWlmSjB6ZjNObUU; reddit_session=2382011979167%2C2022-11-20T18%3A44%3A04%2C0357b6bca28df76c50c569d1f8c45d3c44a3f7b8; loid=0000000000uea4fi5b.2.1668801079025.Z0FBQUFBQmplblYwdm9IZTVKWFNNR1FvYWR2NXVWVGE2dGYwbjF6TjlMem5jZXpHNmF4bUd5c3JtSHcyajR3LVdYaUg0YXI0RjMxelJGRUZrcmZ0QnlOVE1YVEl1SWJ4NVFDZU1iN3EzU2t3dkdvbWo2dmhSSWVReFNJWXpTaWU0bFg2RV9DMThEelU; session=295cda02c77e2905f599e431be07a88debabdb76gAWVSQAAAAAAAABKdHV6Y0dB2N6dQ1IG3H2UjAdfY3NyZnRflIwoNjYyMDJjNGQ4NzZkNGQwYmM3MWI5NTRlOGFkODhiOTRkNGJlYThlNJRzh5Qu'
+#  -H 'referer: https://www.reddit.com/'
+#  -H 'sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"'
+#  -H 'sec-ch-ua-mobile: ?0'
+#  -H 'sec-ch-ua-platform: "macOS"'
+#  -H 'sec-fetch-dest: document'
+#  -H 'sec-fetch-mode: navigate'
+#  -H 'sec-fetch-site: same-origin'
+#  -H 'sec-fetch-user: ?1'
+#  -H 'upgrade-insecure-requests: 1'
+#  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+#  --compressed
+GET https://www.reddit.com/
+authority: www.reddit.com
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+accept-language: en-US,en;q=0.9
+cache-control: max-age=0
+cookie: csv=2; edgebucket=loUPP4OxW2x0zMjZLY; show_announcements=yes; loid=0000000000uea4fi5b.2.1668801079025.Z0FBQUFBQmplblYwdm9IZTVKWFNNR1FvYWR2NXVWVGE2dGYwbjF6TjlMem5jZXpHNmF4bUd5c3JtSHcyajR3LVdYaUg0YXI0RjMxelJGRUZrcmZ0QnlOVE1YVEl1SWJ4NVFDZU1iN3EzU2t3dkdvbWo2dmhSSWVReFNJWXpTaWU0bFg2RV9DMThEelU; session_tracker=pendqhlcqmkcmjodle.0.1668969857270.Z0FBQUFBQmplbldCdER0cFZwNFIyOFZPaFFsRjU5MkRhQTVZVUFVUVVvVzRCSUpSdWpKSWtFc3d6bHhqZ0gwSC1wWkg1UVVYNElTeUdmM0MycGVXbVdrblRHWjBfNGNnb1FmWU9MYmJuUU8xTW5RdjlvWUFKRTVNdklJX1RFTXdueFVtN1NyUjFtbWc; datadome=3FZ9WP2V3Pl6lyVcDHfy00aHdNg62K_gFhe~O2mYeQxMymvp5_qBkveyjByTvGBSYypk3BXNE4J3zgEf~R46k_rlAM-ddDfldlwa3jZqwwUQGzb0O2ZXbPiSK6kysURs
+referer: https://www.reddit.com/
+sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+sec-fetch-dest: document
+sec-fetch-mode: navigate
+sec-fetch-site: same-origin
+sec-fetch-user: ?1
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+
+###
+

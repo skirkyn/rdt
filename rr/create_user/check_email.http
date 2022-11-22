@@ -1,0 +1,28 @@
+# curl 'https://www.reddit.com/check_email'
+#  -H 'authority: www.reddit.com'
+#  -H 'accept: */*'
+#  -H 'accept-language: en-US,en;q=0.9'
+#  -H 'content-type: application/x-www-form-urlencoded'
+#  -H 'cookie: loid=0000000000u9k39sd2.2.1668355716000.Z0FBQUFBQmpjUmFFaG0xeXFwbjc0M3JqTFZVeXNxbW1Yenk4TkdkLUR0NEhLR0ZHdDQxekRjSlE4MFR3LTNLLVZXempsUlpSbVhOT2pfRHdJRFpFQ19IWGhBN21rcnkzdGs4el9yblRBWUtOU3AyNTgxeGdNZ0Z6Qnp3TkxoRk92NGxQNGZOMVlBX20; token_v2=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Njg0NDE5OTYsInN1YiI6Ii15M3NnUndJdHNmUE1ycXhveTZoSHp6NVhmUm4tb3ciLCJsb2dnZWRJbiI6ZmFsc2UsInNjb3BlcyI6WyIqIiwiZW1haWwiLCJwaWkiXX0.KnIhuhGoPCYkluStva5QdKMisyYVI3lepwGllHgYkGk; csv=2; edgebucket=13fcBCfuIBSqxD8Hiz; datadome=xGx8Ia0ATL-FDk9AK-qsT1lBxF1xqaEx.l2zc_HJZWqkpDsE_ES.aryb0y9AK02tbwOakWL3YdQid3OJv4ceR3VJBZYfP7oaKJpiYZsG_mAgYv1lNdi.l-Ci9_X6z87; session_tracker=blknpgiddnikkadgod.0.1668356364777.Z0FBQUFBQmpjUmtNVGhnTXNseWl1ZWZiSmJPLWV5dUY2YVRfaU45d1l0RDhNYkxRZjJuY05ON3c3SkxvclNiZHhtYlVkVmtOX3hsY0ZZMEFMMTBCb250NUJoNC1jTGZVREs4bjY4LUFOdl9PNXFkdU96VFhTUnpwQlBCZXFVaklYZHJEZGV4eUxKa2I; pc=ii; G_ENABLED_IDPS=google; session=24fd20162cf2a5f8a54c59f2b439f7c31ea62a3dgAWVSQAAAAAAAABKHhlxY0dB2NxFopfsz32UjAdfY3NyZnRflIwoMDNiMThlMzczNGUzMGQ2YWQxY2M2YThjYmU3YTM2MWM1MWRiZmUxYZRzh5Qu'
+#  -H 'origin: https://www.reddit.com'
+#  -H 'referer: https://www.reddit.com/account/register/'
+#  -H 'sec-ch-ua: "Not A;Brand";v="99", "Chromium";v="107", "Microsoft Edge";v="107"'
+#  -H 'sec-ch-ua-mobile: ?0'
+#  -H 'sec-ch-ua-platform: "Windows"'
+#  -H 'sec-fetch-dest: empty'
+#  -H 'sec-fetch-mode: cors'
+#  -H 'sec-fetch-site: same-origin'
+#  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.100.0'
+#  --data-raw 'csrf_token=03b18e3734e30d6ad1cc6a8cbe7a361c51dbfe1a&eml=Caanan.Novotny%40EasyMailer.live'
+#  --compressed
+POST https://www.reddit.com/check_email
+authority: www.reddit.com
+accept: */*
+accept-language: en-US,en;q=0.9
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.100.0
+Content-Type: application/x-www-form-urlencoded
+
+csrf_token=03b18e3734e30d6ad1cc6a8cbe7a361c51dbfe1a&email=Caanan.Novotny%40EasyMailer.live
+
+###
+

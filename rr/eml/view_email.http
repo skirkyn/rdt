@@ -1,0 +1,25 @@
+# curl 'https://temporarymail.com/view/?i=6AuCKLpAqg5BIVxI0YFNM9QighHMecS3&width=930'
+#  -H 'authority: temporarymail.com'
+#  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+#  -H 'accept-language: en-US,en;q=0.9'
+#  -H 'cookie: __gads=ID=04c76807a73be696-220c20e04e7f0050:T=1668355914:RT=1668355914:S=ALNI_MYK7uUCQkEvxVEUoeVQfshgsJ9Bhg; __gpi=UID=000009d83428c28c:T=1668355914:RT=1668355914:S=ALNI_MbJ1n1LpVGgfYY15IgX4N92MGIpPA'
+#  -H 'referer: https://temporarymail.com/'
+#  -H 'sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"'
+#  -H 'sec-ch-ua-mobile: ?0'
+#  -H 'sec-ch-ua-platform: "macOS"'
+#  -H 'sec-fetch-dest: iframe'
+#  -H 'sec-fetch-mode: navigate'
+#  -H 'sec-fetch-site: same-origin'
+#  -H 'upgrade-insecure-rr: 1'
+#  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+#  --compressed
+GET https://temporarymail.com/view/?i=Iri4aybYXZ20uzhkhjV6gV4EO3ftWevc&width=930
+authority: temporarymail.com
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+accept-language: en-US,en;q=0.9
+referer: https://temporarymail.com/
+upgrade-insecure-requests: 1
+user-agent: some
+
+###
+

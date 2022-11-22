@@ -1,0 +1,32 @@
+# curl 'https://www.google.com/recaptcha/api2/payload?p=06AEkXODBaf1tpTLCX-d9egKLWrUvLDD-x9X61xzrP8oMODLeIW60a2bdXplPbPEXb1z7jqJK9LpIw8uQfH0V7LSn6k2DBQsRsAC6PqPqlKlcgfJTL2CqGp0wsJ3Mt5DQ023rCxAm5WmDxpZ6C4CdhDcOAdpsPpbYu2CHOHE38unGoFVfVhOOwzZaKnbxQL3uaoL2VF4_GZZuH3WjG8qxWc6ZPwmS1VE2WSTLvHlZhKDmYLvZ-ug2qTg4&k=6LeTnxkTAAAAAN9QEuDZRpn90WwKk_R1TRW_g-JC'
+#  -H 'authority: www.google.com'
+#  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+#  -H 'accept-language: en-US,en;q=0.9'
+#  -H 'cache-control: no-cache'
+#  -H 'pragma: no-cache'
+#  -H 'referer: https://www.google.com/recaptcha/api2/bframe?hl=en&v=Km9gKuG06He-isPsP6saG8cn&k=6LeTnxkTAAAAAN9QEuDZRpn90WwKk_R1TRW_g-JC'
+#  -H 'sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"'
+#  -H 'sec-ch-ua-mobile: ?0'
+#  -H 'sec-ch-ua-platform: "macOS"'
+#  -H 'sec-fetch-dest: image'
+#  -H 'sec-fetch-mode: no-cors'
+#  -H 'sec-fetch-site: same-origin'
+#  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+#  --compressed
+GET https://www.google.com/recaptcha/api2/payload?p=06AEkXODBaf1tpTLCX-d9egKLWrUvLDD-x9X61xzrP8oMODLeIW60a2bdXplPbPEXb1z7jqJK9LpIw8uQfH0V7LSn6k2DBQsRsAC6PqPqlKlcgfJTL2CqGp0wsJ3Mt5DQ023rCxAm5WmDxpZ6C4CdhDcOAdpsPpbYu2CHOHE38unGoFVfVhOOwzZaKnbxQL3uaoL2VF4_GZZuH3WjG8qxWc6ZPwmS1VE2WSTLvHlZhKDmYLvZ-ug2qTg4&k=6LeTnxkTAAAAAN9QEuDZRpn90WwKk_R1TRW_g-JC
+authority: www.google.com
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+accept-language: en-US,en;q=0.9
+cache-control: no-cache
+pragma: no-cache
+referer: https://www.google.com/recaptcha/api2/bframe?hl=en&v=Km9gKuG06He-isPsP6saG8cn&k=6LeTnxkTAAAAAN9QEuDZRpn90WwKk_R1TRW_g-JC
+sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+sec-fetch-dest: image
+sec-fetch-mode: no-cors
+sec-fetch-site: same-origin
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+
+###
+

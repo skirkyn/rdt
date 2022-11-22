@@ -1,0 +1,9 @@
+{
+  "user_name": {
+    "user_to_vote": {
+      "status": "done|started",
+      "comments": "last_id",
+      "submitted": "last_id"
+    }
+  }
+}
